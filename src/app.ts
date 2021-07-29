@@ -29,5 +29,5 @@ app.get('/signin', (req, res) => {
 });
 
 https.createServer(opts, app).listen(port, () => {
-    console.log(`Sample app listening at http://localhost:${port}`)
+    console.log(`Sample app listening at https://localhost:${port}`)
 });
