@@ -35,7 +35,7 @@ $ openssl pkcs12 -export -clcerts -in client_cert.pem -inkey client_key.pem -out
 $ npm install && npm start
 ```
 
-The sample server will be accessable at http://localhost:3000/.
+The sample server will be accessable at https://localhost:3000/.
 
 ## Reference
 - [Client Certificate Demo](https://github.com/sevcsik/client-certificate-demo/tree/chapter-1)
